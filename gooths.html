@@ -1,0 +1,1086 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+    <title>Hello, world!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+
+        .dosl {
+            font-family: 'Gasoek One', sans-serif;
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        .navyellow {
+            background-color: yellow !important;
+        }
+
+        .ddd {
+            text-align: center;
+        }
+
+        .ddd .row {
+            display: flex;
+            justify-content: center;
+        }
+
+        .ddd .col-12 {
+            max-width: 200px;
+            text-align: center;
+        }
+
+        .ddd .col-12 img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 50px;
+
+        }
+
+        .ddd img#mikulogo2 {
+            max-width: 150%;
+            height: auto;
+            display: block;
+            margin-left: -20px;
+
+        }
+        .custom-container {
+        max-width: 1400px; 
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .custom{
+        max-width: 1600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .custom-btn {
+        width: 50px;
+        height: 20px;
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid #bababa;
+        border-radius: 3px;
+        padding: 0px 0px;
+        text-decoration: none;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+       
+    }
+       
+    </style>
+</head>
+
+<body style="overflow-x: hidden">
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg bg-light navyellow">
+            <ul class="navbar-nav mr-auto">
+                <a class="navbar-brand" href="#"><img src="imgic/mikulogo1.jpg" alt=""
+                        class="bd-placeholder-img card-img-top img-fluid" style="max-height: 50px;"></a>
+                <li class="nav-item active">
+                    <a class="nav-link dosl" href="#">애니굿즈<span class="sr-only ">(current)</span></a>
+                </li>
+            </ul>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto" style="margin-right: 100px;">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onClick="location.href='login2.html'">로그인</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">회원가입</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">상품들</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">마이샵</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">고객센터</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="row justify-content-center align-items-center mt-5 mb-5">
+            <img src="imgic/mikulogo2.webp" alt="">
+        </div><!-- row -->
+        <div class="row">
+            <div class="col-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto" style="margin-right: 20px; padding-left: 20px;">
+
+                            <li class="nav-item">
+                                <a class="nav-link" style="margin-right: 30px;" href="#">제조사별</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="margin-right: 30px;" href="#">신규입고</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  disabled" style="margin-right: 30px;">예약상품</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" style="margin-right: 30px;">BEST!</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" style="margin-right: 30px;">굿즈샵</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="margin-right: 30px;" href="#">경품</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="margin-right: 30px;" href="#">피규어</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  disabled" style="margin-right: 30px;">타마고베게</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" style="margin-right: 30px;">5등분의신부</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" style="margin-right: 30px;">김좌겸존잘</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" style="margin-right: 30px;">아놔진짜</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="margin-right: 30px;" href="#">나카노미쿠</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" style="margin-right: 30px;" href="#">인생티비</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link disabled" style="margin-right: 30px;">왕이다</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link  disabled" style="margin-right: 30px;">조수지별</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" style="margin-right: 30px;">순수일본산</a>
+                            </li>
+
+                        </ul>
+                </nav>
+            </div>
+        </div>
+    </div><!-- row -->
+    <div class="row">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active coaruz">
+                    <img src="imgic/carou1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item coaruz">
+                    <img src="imgic/carou2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item coaruz">
+                    <img src="imgic/carou3.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item coaruz">
+                    <img src="imgic/carou4.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+    </div><!-- row -->
+    <div class="container">
+        <div class="ddd">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="#"><img id="mikulogo2" src="imgic/mikulogo2.webp" alt=""></a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="#"><img src="imgic/mikulogo3.webp" alt=""></a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="#"><img src="imgic/mikulogo4.webp" alt=""></a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <a href="#"><img src="imgic/mikulogo5.png" alt=""></a>
+                </div>
+
+            </div><!-- row -->
+        </div>
+
+
+
+    </div><!-- container -->
+    </div><!-- container-fluid -->
+    <div class="container-fluid">
+        <div class="row mb-5 mt-5">
+            <div class="col-4">
+                <div class="embed-responsive embed-responsive-4by3 mt-5 mb-5">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/f0veKLMX1oA?si=H-AOLWn-H8P769v7"></iframe>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="embed-responsive embed-responsive-4by3 mt-5 mb-5">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/5yb2N3pnztU?si=Pm5xkg3bI4cyjCMG"></iframe>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="embed-responsive embed-responsive-4by3 mt-5 mb-5">
+                    <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/embed/dFlDRhvM4L0?si=SUTavoUu1Oq-_FYv"></iframe>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="container mt-5">
+            <div class="row mt-2 mx-auto">
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon1.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon2.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon3.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon4.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon5.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon6.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="row mt-2  mx-auto">
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon7.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon8.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon9.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon10.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon11.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon12.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="row mt-2  mx-auto">
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon13.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon14.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon15.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon16.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon17.jpg" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <a href="#"><img src="imgic/icon18.jpg" alt=""></a>
+                </div>
+            </div>
+        </div><!-- container -->
+        <div class="container-fluid">
+            <div class="row mt-5 mb-5">
+                <h4 style="margin: 0 auto;" class="mb-5 mt-5">MADE 퍼프 예약중!</h4>
+            </div>
+            <div class="container">
+                <div class="row pt-5 pb-5">
+                    <div class="col">
+                        <div class="card" style="width: 12rem;">
+                            <img src="imgic/main1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <p class="card-text" style="font-size: 12px;">
+                                    [예약상품/23년 12월~24년 01월 입고예정][피규어프레소][외톨이 더 록/봇치 더 록] 정식 라이센스 아크릴 스탠드 고토 히토리
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn small rounded-pill px-3 py-2">24000원</a>
+                        <hr>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 12rem;">
+                            <img src="imgic/main2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <p class="card-text" style="font-size: 12px;">
+                                    [예약상품/23년 12월~24년 01월 입고예정][피규어프레소][외톨이 더 록/봇치 더 록] 정식 라이센스 아크릴 스탠드 이지치 니지카
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn small rounded-pill px-3 py-2">24000원</a>
+                        <hr>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 12rem;">
+                            <img src="imgic/main3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <p class="card-text" style="font-size: 12px;">
+                                    [예약상품/23년 12월~24년 01월 입고예정][피규어프레소][외톨이 더 록/봇치 더 록] 정식 라이센스 아크릴 스탠드 야마다 료
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn small rounded-pill px-3 py-2">24000원</a>
+                        <hr>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 12rem;">
+                            <img src="imgic/main4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <p class="card-text" style="font-size: 12px;">
+                                    [예약상품/23년 12월~24년 01월 입고예정][피규어프레소][외톨이 더 록/봇치 더 록] 정식 라이센스 아크릴 스탠드 키타 이쿠요
+
+
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn small rounded-pill px-3 py-2">24000원</a>
+                        <hr>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 12rem;">
+                            <img src="imgic/main5.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <p class="card-text" style="font-size: 12px;">
+                                    [예약상품/23년 12월~24년 01월 입고예정][피규어프레소][외톨이 더 록/봇치 더 록] 정식 라이센스 슬림 태피스트리 고토 히토리
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn small rounded-pill px-3 py-2">24000원</a>
+                        <hr>
+                    </div>
+                </div><!-- row -->
+                <div class="row pt-5 pb-5">
+                    <div class="col">
+                        <div class="card" style="width: 12rem;">
+                            <img src="imgic/main6.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <p class="card-text" style="font-size: 12px;">
+                                    [예약상품/23년 12월~24년 01월 입고예정][피규어프레소][외톨이 더 록/봇치 더 록] 정식 라이센스 슬림 태피스트리 이지치 니지카
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn small rounded-pill px-3 py-2">24000원</a>
+                        <hr>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 12rem;">
+                            <img src="imgic/main7.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <p class="card-text" style="font-size: 12px;">
+                                    [예약상품/23년 12월~24년 01월 입고예정][피규어프레소][외톨이 더 록/봇치 더 록] 정식 라이센스 슬림 태피스트리 야마다 료
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn small rounded-pill px-3 py-2">24000원</a>
+                        <hr>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 12rem;">
+                            <img src="imgic/main8.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <p class="card-text" style="font-size: 12px;">
+                                    [예약상품/23년 12월~24년 01월 입고예정][피규어프레소][외톨이 더 록/봇치 더 록] 정식 라이센스 슬림 태피스트리 키타 이쿠요
+
+
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn small rounded-pill px-3 py-2">24000원</a>
+                        <hr>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 12rem;">
+                            <img src="imgic/main9.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <p class="card-text" style="font-size: 12px;">
+                                    [예약상품/23년 12월~24년 01월 입고예정][피규어프레소][외톨이 더 록/봇치 더 록] 정식 라이센스 자켓 아크릴 키링 컬렉션 8개입
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn small rounded-pill px-3 py-2">24000원</a>
+                        <hr>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 12rem;">
+                            <img src="imgic/main9.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+
+                                <p class="card-text" style="font-size: 12px;">
+                                    [예약상품/23년 12월~24년 01월 입고예정][피규어프레소][외톨이 더 록/봇치 더 록] 정식 라이센스 자켓 아크릴 키링 컬렉션 8개입
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn small rounded-pill px-3 py-2">24000원</a>
+                        <hr>
+                    </div>
+                </div><!-- row -->
+            </div><!-- container -->
+            <div class="row mt-5 mb-5">
+                <h4 style="margin: 0 auto;" class="mb-5">💖TOP💖</h4>
+            </div>
+            <div class="container-fluid custom">
+                <div class="row pt-5 pb-5 mx-auto">
+                <div class="col" style="padding-left: 15px; padding-right: 15px;">
+                    <div class="card" style="width: 15rem;">
+                        <img src="imgic/top1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text" style="font-size: 12px;">
+                                [입고완료][후류][체인소맨] 누들 스토퍼 피규어 파워
+                            </p>
+                        </div>
+                    </div>
+                  
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 15rem;">
+                        <img src="imgic/top2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text" style="font-size: 12px;">
+                                [입고완료][반다이][헌터×헌터] 앉은 자세 대열 단품 (랜덤/캡슐)
+                            </p>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 15rem;">
+                        <img src="imgic/top3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text" style="font-size: 12px;">
+                                [입고완료][반프레스토][헌터×헌터] 바이브레이션 스타즈 키르아
+                            </p>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 15rem;">
+                        <img src="imgic/top4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text" style="font-size: 12px;">
+                                [입고완료][세가][프로젝트 세카이 컬러풀 스테이지! feat. 하츠네 미쿠]
+                            </p>
+                        </div>
+                    </div>
+                
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 15rem;">
+                        <img src="imgic/top5.jpg" class="card-img-top"  alt="...">
+                        <div class="card-body">
+
+                            <p class="card-text" style="font-size: 12px;">
+                                [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                            </p>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+            
+            </div>
+            <div class="container custom-container">
+                <div class="row mt-5 mb-5">
+                    <h4 style="margin: 0 auto;" class="mb-5">💖올해 갓 들어온 따끈따끈 국밥💖</h4>
+                </div>
+                <div class="row pt-5 pb-5">
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub1.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub2.png" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub3.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub4.png" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub5.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub6.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub7.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                </div>
+                <div class="row pt-5 pb-5">
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub8.png" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub9.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub10.png" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub11.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub12.png" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub13.png" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub14.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                </div>
+                <div class="row pt-5 pb-5">
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub15.png" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub16.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub17.png" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub18.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub19.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub20.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub21.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                </div>
+                <div class="row pt-5 pb-5">
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub22.png" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub23.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub24.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub25.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub26.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub27.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub28.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                </div>
+                <div class="row pt-5 pb-5">
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub29.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub30.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub31.png" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub32.png" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub33.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub34.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 10rem;">
+                            <img src="imgic/sub35.jpg" class="card-img-top"  alt="...">
+                            <div class="card-body">
+    
+                                <p class="card-text" style="font-size: 12px;">
+                                    [입고완료][무빅][명탐정 코난] 네온 컬렉션 Vol.2 단품 (랜덤)
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#" ><button class="btn custom-btn small">24000</button></a>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div><!-- fluid -->
+        <div class="container-fluid bg-light  py-5 mt-5 ">
+            <div class="container">
+                <footer class="row text-light">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="logo2 pb-5">
+                            <a href=""><img src="imgic/mikulogo1.jpg" alt="" style="width: 100px; height: 100px;"></a>
+                            <a href=""><img src="imgic/mikulogo1.jpg" alt="" style="width: 100px; height: 100px;"></a>
+                            <a href=""><img src="imgic/mikulogo1.jpg" alt="" style="width: 100px; height: 100px;"></a>
+                            <a href=""><img src="imgic/mikulogo1.jpg" alt="" style="width: 100px; height: 100px;"></a>
+                            
+                        </div>
+                        <!-- 회사소개 |  이용약관  |  개인정보처리방침 |  이용안내 |  고객센터 -->
+                        <div class="col-12 mb-5" >
+                            <div class="col" style="color: #000000;">
+                                회사소개 |  이용약관  |  개인정보처리방침 |  이용안내 |  고객센터
+                            </div>
+                        </div>
+
+                        <p  style="color: #000000;">그냥저냥
+                            대표 : 김좌겸 사업자등록번호 : 000-00-000000[사업자정보확인] 통신판매신고 : 2022-서울서초-0067
+                            주소 : 06601 서울특별시 노진구 서초중앙로 200 21-305 TEL : 070-8758-2022
+                            개인정보관리자 : 김갑룡(kimjagium@gmail.com) <br> E - MAIL : kimjagium@gmail.com
+                            고객님은 안전거래를 위해 결제 시 저희 쇼핑몰에서 가입한 구매안전(에스크로) 서비스를 이용하실 수 있습니다. [서비스가입사실확인]
+                            Copyright © 애니굿즈 All rigths reserved. Design by AIM design.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="row">
+                            <div class="col"  style="color: #000000;">
+                                MENU <br>
+                                BRAND <br>
+                                REVIEW <br>
+                                EVENT <br>
+                                C/S CENTER
+                            </div>
+                            <div class="col"  style="color: #000000;">
+                                C/S CENTER <br>
+                                070-8758-2022 <br>
+                                평일 09:00 - 17:00 <br>
+                                점심 12:00 - 13:00 <br>
+                                (주말 및 공휴일 휴무) <br>
+                                인스타그램 유튜브 카카오톡
+                            </div>
+                            <div class="col"  style="color: #000000;">
+                                BANK INFO <br>
+                                우리은행 1002-760-963057 <br>
+                                예금주 : 김좌겸(그냥저냥)
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-end">
+                            <ul class="list-unstyled">
+                                <li class="float-left mx-3"><img src="imgic/ins.png" alt=""></li>
+                                <li class="float-left mx-3"><img src="imgic/you.png" alt=""></li>
+                                <div class="row">
+                                    <a href="#"><img src="https://tenor.com/ko/view/miku-nakano-cute-anime-pout-qq-gif-16652049768487727597.gif" alt="" style="width: 300px; height: 300px;"></a>
+                                </div>
+                                <form class="form-inline my-2 my-lg-0" type="button" class="navyBtn col-1 "
+                                    onClick="location.href='imgOverlay_EX.html'">
+                                    <button type="button" class="btn btn-primary fw900" data-toggle="modal"
+                                        data-target="#exampleModal">
+                                        다른거 보러가기
+                                    </button>
+                                    <form class="form-inline my-2 my-lg-0" type="button" class="navyBtn col-1 "
+                                    onClick="location.href='imgOverlay_EX.html'">
+                                    <button type="button" class="btn btn-success fw900" data-toggle="modal"
+                                        data-target="#exampleModal">
+                                        굿즈 상품 보러가기
+                                    </button>
+    
+                                </form>
+    
+                                </form>
+                               
+                                
+    
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </footer>
+            </div>
+    
+        </div>
+
+
+
+
+
+
+
+
+    </div><!-- container-fluid -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
